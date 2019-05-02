@@ -37,11 +37,11 @@ include_directories(
 )
 
 ## Declare a C++ library
-add_library(sample_nodelet
+add_library(sample_nodelet_libname
   src/sample_nodelet_class.cpp
   src/sample_nodelet_class2.cpp
 )
-target_link_libraries(sample_nodelet ${catkin_LIBRARIES})
+target_link_libraries(sample_nodelet_libname ${catkin_LIBRARIES})
 if(catkin_EXPORTED_LIBRARIES)
-  add_dependencies(sample_nodelet ${catkin_EXPORTED_LIBRARIES})
+  add_dependencies(sample_nodelet_libname ${catkin_EXPORTED_LIBRARIES})
 endif()

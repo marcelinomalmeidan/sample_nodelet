@@ -1,11 +1,11 @@
-<library path="lib/libsample_nodelet">
-	<class name="sample_nodelet/SampleNodeletClass" type="sample_nodelet_ns::SampleNodeletClass"
+<library path="lib/libsample_nodelet_libname">
+	<class name="sample_nodelet_name/SampleNodeletClass" type="sample_nodelet_ns::SampleNodeletClass"
 		base_class_type="nodelet::Nodelet">
 		<description>
 			SampleNodeletClass.
 		</description>
 	</class>
-	<class name="sample_nodelet/SampleNodeletClass2" type="sample_nodelet_ns::SampleNodeletClass2"
+	<class name="sample_nodelet_name/SampleNodeletClass2" type="sample_nodelet_ns::SampleNodeletClass2"
 		base_class_type="nodelet::Nodelet">
 		<description>
 			SampleNodeletClass2.
