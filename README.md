@@ -2,6 +2,8 @@
 
 Simple example of ROS nodelet.
 
+Originally obtained from: <https://github.com/cryborg21/sample_nodelet>
+
 ## Description
 
 * **sample_nodelet_class.launch** will run following nodes:
