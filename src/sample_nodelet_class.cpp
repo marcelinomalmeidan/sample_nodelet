@@ -4,7 +4,7 @@
  *  Created on: 2016/09/18
  *      Author: cryborg21
  */
-#include "sample_nodelet_class.h"
+#include "sample_nodelet/sample_nodelet_class.h"
 #include <pluginlib/class_list_macros.h>
 
 namespace sample_nodelet_ns {

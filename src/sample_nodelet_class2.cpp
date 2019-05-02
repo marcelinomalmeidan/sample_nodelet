@@ -4,7 +4,7 @@
  *  Created on: 2016/09/18
  *      Author: cryborg21
  */
-#include "sample_nodelet_class2.h"
+#include "sample_nodelet/sample_nodelet_class2.h"
 #include <nodelet/nodelet.h>
 #include <pluginlib/class_list_macros.h>
 
