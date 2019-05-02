@@ -4,7 +4,7 @@ Simple example of ROS nodelet.
 
 Originally obtained from: <https://github.com/cryborg21/sample_nodelet>
 
-Changes I made: 
+Changes I made (marcelinomalmeidan): 
 
 - Changed names around to avoid confusion between package name, library name, and nodelet name.
 
