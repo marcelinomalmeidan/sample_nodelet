@@ -6,5 +6,6 @@
 	<!-- $ rosrun nodelet nodelet load sample_nodelet/SampleNodeletClass2 sample_nodelet_manager __name:=SampleNodeletClass2_loader-->
 	<node pkg="nodelet" type="nodelet" args="load sample_nodelet_name/SampleNodeletClass2 sample_nodelet_manager"
     name="SampleNodeletClass2_loader" output="screen">
+    	<param name="example_param2" value="0.2"/>
 	</node>
 </launch>
