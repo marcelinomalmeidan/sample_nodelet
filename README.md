@@ -8,6 +8,8 @@ Changes I made:
 
 - Changed names around to avoid confusion between package name, library name, and nodelet name.
 
+- Incremented example on how to load files from launch file by using a nodehandle.
+
 ## Description
 
 * **sample_nodelet_class.launch** will run following nodes:
